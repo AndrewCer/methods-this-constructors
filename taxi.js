@@ -4,6 +4,7 @@ function Taxi(driverName, maxNumberOfPassengers) {
 
 Taxi.prototype.addPassenger = function(passengerName) {
   // your code here
+  
 };
 
 // your code here
