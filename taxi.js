@@ -20,12 +20,7 @@ Taxi.prototype.passengerCount = function () {
 }
 
 Taxi.prototype.full = function () {
-  if (this.passengers.length >= 4) {
-    return true;
-  }
-  else {
-    return false;
-  }
+  return this.passengers.length >= 4;
 }
 
 Taxi.prototype.dropOffPassengers = function () {
